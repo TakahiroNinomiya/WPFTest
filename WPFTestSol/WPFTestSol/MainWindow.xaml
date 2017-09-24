@@ -20,5 +20,6 @@
                                 UpdateSourceTrigger=PropertyChanged,
                                 Mode=TwoWay
                         }"/>
+        <Label x:Name="Label" Content="{Binding Number,UpdateSourceTrigger=PropertyChanged,Mode=OneWay}" Margin="156,180,233,103" />
     </Grid>
 </Window>
